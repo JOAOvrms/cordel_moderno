@@ -10,11 +10,19 @@
    --fonte3: 'Sriracha', sans-serif;
 }
 
+html, body {
+   min-height: 100vh;
+   background-color: darkgray;
+}
+
+body {
+   font-family: var(--fonte1);
+}
+
 header {
    background-color: black;
    color: white;
    text-align: center;
-   display: block;
    font-family: var(--fonte1);
 }
 
@@ -22,22 +30,40 @@ header h1 {
    padding-top: 50px;
    font-family: var(--fonte2);
    font-size: 10vw;
+   font-variant: small-caps;
 }
 
-header a {
+header p {
+   padding-bottom: 50px;
+}
+
+header a, footer a {
+   text-decoration: none;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
    text-decoration: none;
    color: white;
    font-weight: bolder;
 }
 
-a {
-   cursor: pointer;
-}
-
-a:hover {
+header a:hover, footer a:hover {
    text-decoration: underline;
 }
 
-header p {
-   padding-bottom: 50px;
+.normal {
+   background-color: white;
+   color: black;
+}
+
+.imagem {
+   background-color: rgb(41, 41, 41);
+   color: white;
+}
+
+footer {
+   background-color: black;
+   text-align: center;
+   padding: 10px;
+   color: white;
 }
