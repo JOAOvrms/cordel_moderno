@@ -20,3 +20,5 @@ Separação de seções visuais: alternância entre blocos de fundo claro e escu
 Links e interatividade: estilização de links com efeitos de hover e integração com fontes externas (poema original e perfis do GitHub).
 
 Boas práticas de organização: código limpo, identado, sem redundâncias e com uso coerente de classes e IDs para facilitar manutenção.
+
+Link do projeto: https://cordel-moderno-blond.vercel.app/
