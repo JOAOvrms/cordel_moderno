@@ -3,7 +3,7 @@ O projeto “Cordel Moderno” tem como objetivo recriar, em formato digital, o 
 
 Principais conceitos aplicados
 
-Estrutura semântica do HTML5: uso de tags como <header>, <main>, <section> e <footer> para estruturar o conteúdo de maneira clara e acessível.
+Estrutura semântica do HTML5: uso de tags como header, main, section e footer para estruturar o conteúdo de maneira clara e acessível.
 
 Estilização com CSS3: utilização de seletores, pseudo-classes (:hover), sombras e transparências para criar contraste e legibilidade no texto.
 
